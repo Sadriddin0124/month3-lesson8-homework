@@ -1,0 +1,110 @@
+@media (max-width: 1300px) {
+  .mywork__card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 990px) {
+  .header__nav-list {
+    margin-right: 100px;
+  }
+  .header__title, .mywork__title, .brown__card-title, .brown__title {
+    font-size: 50px;
+  }
+}
+@media (max-width: 989px) and (min-width: 789px) {
+  .header__nav-list {
+    margin-right: 60px;
+  }
+  .header__title, .mywork__title, .brown__card-title, .brown__title {
+    font-size: 45px;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+  }
+  .footer__items1 {
+    margin-right: 50px;
+  }
+}
+@media (max-width: 788px) and (min-width: 448px) {
+  .header__nav-list {
+    display: none;
+  }
+  .bars div {
+    display: block;
+  }
+  .header__title, .mywork__title, .brown__card-title, .brown__title {
+    font-size: 30px;
+  }
+  .brown__card-subtitle {
+    font-size: 18px;
+  }
+  .brown__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 20px;
+    height: 300px;
+    gap: 20px;
+  }
+  .footer {
+    gap: 40px;
+  }
+  .footer__items1 {
+    margin-right: 10px;
+  }
+  .footer__items2 {
+    justify-content: center;
+    gap: 80px;
+  }
+  .mywork-desc {
+    font-size: 28px;
+  }
+  .footer {
+    padding: 100px 20px;
+  }
+}
+@media (max-width: 447px) {
+  .header {
+    padding: 20px;
+  }
+  .mywork {
+    padding: 20px;
+  }
+  .header__nav-list {
+    display: none;
+  }
+  .bars div {
+    display: block;
+  }
+  .header__title, .mywork__title, .brown__card-title, .brown__title {
+    font-size: 30px;
+  }
+  .brown__card-subtitle {
+    font-size: 12px;
+  }
+  .brown__card {
+    padding: 20px;
+    height: 300px;
+  }
+  .brown__title {
+    padding: 0;
+  }
+  .footer__items1 {
+    margin-right: 10px;
+  }
+  .footer__items2 {
+    justify-content: center;
+    gap: 80px;
+  }
+  .mywork-desc {
+    font-size: 28px;
+  }
+  .footer {
+    padding: 100px 20px;
+  }
+}/*# sourceMappingURL=media.css.map */
